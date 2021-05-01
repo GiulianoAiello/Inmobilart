@@ -50,7 +50,6 @@ header{
     grid-template-rows: 1fr 1fr;
     padding-bottom: 40px;
     width:100%;
-    margin-top: 0px;
 }
 
 .subcontenedor{
@@ -59,6 +58,7 @@ header{
     align-items: center;
     flex-direction: column;
     color:#fff;
+    margin-top: 50px;
 }
 .texto{
     width:50%;
@@ -75,7 +75,7 @@ header{
 }
 
 .img{
-    height: 400px;
+    width: 50%;
 }
 .subcontenedor:first-child{
     display:flex;
@@ -125,7 +125,7 @@ header{
     width:60%;
     text-align: center;
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     header{
         grid-template-columns: 1fr;
     }
